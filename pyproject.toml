@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "polars-induction"
+version = "0.1.0"
+description = ""
+authors = ["federico.lavatori@gmail.com <federico.lavatori@gmail.com>"]
+readme = "README.md"
+packages = [{include = "polars_induction"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+polars = "^0.16.16"
+numpy = "^1.24.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
